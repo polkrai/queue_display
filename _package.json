@@ -1,0 +1,19 @@
+{
+    "name": "elephantIO_example_emitter",
+    "version": "3.0.0",
+    "main": "server_queue.js",
+    "scripts": {
+        "start": "supervisor --debug server_queue.js"
+    },
+    "dependencies": {
+        "has-binary": "^0.1.7",
+        "node-mac": "^0.1.8",
+        "options": "0.0.6",
+        "parsejson": "0.0.3",
+        "socket.io": "^2.2.0",
+        "socket.io-adapter": "^1.1.1",
+        "winston": "*",
+        "ws": "^7.0.0",
+        "wtf-8": "^1.0.1"
+    }
+}

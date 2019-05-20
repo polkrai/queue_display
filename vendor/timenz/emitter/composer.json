@@ -1,0 +1,22 @@
+{
+    "name": "timenz/emitter",
+    "description": "Laravel socket.io emitter based on wisembly/elephant.io",
+    "authors": [
+        {
+            "name": "Timen Chad",
+            "email": "timenmail@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "wisembly/elephant.io": "~3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Timenz\\Emitter": "src/"
+        }
+    },
+    "license": "MIT",
+    "minimum-stability": "stable"
+}

@@ -1,0 +1,13 @@
+{
+    "name": "elephantIO",
+    "version": "3.0.0",
+    "main": "server_queue.js",
+    "scripts": {
+        "start": "supervisor --debug server_queue.js"
+    },
+    "dependencies": {
+        "node-mac": "^0.1.8",
+        "socket.io": "~1",
+        "winston": "*"
+    }
+}
